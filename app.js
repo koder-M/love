@@ -140,6 +140,9 @@ option1.addEventListener('click', () => {
         quiz1Result.innerText = '';
         quizStep = 3;
     }
+    else if(quizStep === 3){
+        quiz1Result.innerText = 'Oohoo, please try again !';
+    }
 });
 
 option2.addEventListener('click', () => {
