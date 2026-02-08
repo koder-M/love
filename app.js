@@ -28,32 +28,32 @@ let finallyContainer = document.querySelector('section.finally');
 const photosData = [
     {
       id: 1,
-      img: "i1.png",
+      img: "media/i1.jpg",
       title: "Sweet Hello"
     },
     {
       id: 2,
-      img: "i2.png",
+      img: "media/i2.jpg",
       title: "True Smile"
     },
     {
       id: 3,
-      img: "i3.png",
+      img: "media/i3.jpg",
       title: "Perfect Day"
     },
     {
       id: 4,
-      img: "i4.png",
+      img: "media/i4.jpg",
       title: "Only Us"
     },
     {
       id: 5,
-      img: "i5.png",
+      img: "media/i5.jpg",
       title: "My Home"
     },
     {
       id: 6,
-      img: "i6.png",
+      img: "media/i6.jpg",
       title: "Forever Us"
     }
 ];
@@ -194,7 +194,7 @@ function createPhotos(){
         cluster += `
                      <div class="photo">
                         <div class="img">
-                            <img src="https://i.pinimg.com/1200x/50/44/2f/50442f605e47cdb76c4d1a5b06c84cd0.jpg" alt="">
+                            <img src=${dets.img} alt="">
                         </div>
                         <h2>${dets.title}</h2>
                     </div>
